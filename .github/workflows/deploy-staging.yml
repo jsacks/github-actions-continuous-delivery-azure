@@ -3,7 +3,7 @@ name: Stage the app
 on: 
   pull_request:
     types: [labeled]
-    
+     
 env:
   DOCKER_IMAGE_NAME: jsacks-azure-ttt
   IMAGE_REGISTRY_URL: docker.pkg.github.com
